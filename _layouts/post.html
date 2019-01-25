@@ -4,7 +4,7 @@ comments: true
 # other options
 ---
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p class="post_date">{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 {{ content }}
 <hr>
@@ -26,3 +26,4 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?href_noscript">comments powered by Disqus.</a></noscript>
