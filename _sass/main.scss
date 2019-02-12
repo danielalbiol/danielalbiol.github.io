@@ -14,6 +14,7 @@ ul {
 
 p.about {
     text-align: center;
+    padding: 20px;
 }
 
 p.post_date {
@@ -50,6 +51,7 @@ a.navbar-brand {
     padding-right: 1em;
     font-size: 1.2em;
     text-align: center;
+    outline:none !important;
 }
 
 nav.header {
@@ -72,6 +74,7 @@ nav.header {
 
     a {
         color: transparent;
+        outline:none !important;
     }
 }
 
@@ -83,4 +86,21 @@ div.line {
     display: inline;
 }
 
+.profile {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:auto;
+  }
 
+  .profile img {
+        width: 100%;
+        height: auto;
+  }
+
+  a {
+      outline: none !important;
+      -moz-outline-style: none !important;
+  }
