@@ -1,2 +1,4 @@
-- name: Home
+- name: Inicio
   link: /
+- name: Proyectos
+  link: /proyectos
